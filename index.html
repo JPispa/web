@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- utf-8 on suositeltu koodaus mitä käytetään -->
+  <meta name="description" content="Jukka's Personal Site kertoo tämän sivuston kehittäjän elämästä">
+  <!-- meta name:lla saadaan hakukoneille informaatio sivuston sisällöstä -->
+  <title>Jukka's Personal Site 💚</title>
+  <!-- title näkyy nettisivun kehyksessä -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<!-- sivuun otetaan mallia Jon Kleinbergin sivusta -->
+<!-- www.cs.cornell.edu/home/kleinber -->
+
+  <table cellspacing="20">
+    <!-- lisäsin tableen spacingia 20 -->
+    <tr>
+      <td>
+        <img src="images/jukka1.jpg" alt="Jukan profiilikuva"><!-- laitoin imagen tablen sisään -->
+        <!-- img src="https://pispan.fi/wp-content/uploads/2020/08/tarina_5.jpg" alt="Jukan profiilikuva" -->
+      </td>
+      <td>
+        <h1>Jukka-Pekka Pispa</h1><!-- pääotsikko -->
+        <p><em><strong><a href="https://www.hamk.fi">HAMK</a></strong> insinööri opiskelija</em></p>
+        <!-- hyödynnetään em tägiä kursivointiin ja strong tägiä lihavointiin -->
+        <!-- a href tägillä lisätään linkkejä -->
+        <p>Opiskelen tieto- ja viestintätekniikkaa Hämeen ammattikorkeakoulussa.
+          Aloitin opinnot Elokuussa 2019</p>
+      </td><!-- laitoin tablen sisään aineiston -->
+    </tr>
+  </table>
+
+  <hr><!-- vaakaviiva sivulle -->
+  <h3>Education</h3><!-- alaotsikko -->
+  <ul>
+    <!-- UL tägillä tehdään lista, jossa pisteet edessä -->
+    <li>Peruskoulu</li><!-- LI tägi tekee rivit -->
+    <ul>
+      <li>Kirkonkulman ala-aste</li>
+      <li>Lyseon ylä-aste</li>
+    </ul>
+    <li>Ammattikoulu</li>
+    <ul>
+      <li>Hämeenlinnan ammattikoulu</li>
+      <li>Kiipulan ammattiopisto</li>
+      <li><a href="https://www.kktavastia.fi/ammattiopisto/">Ammattiopisto Tavastia</a></li><!-- linkin teko otsikosta -->
+    </ul>
+    <li>Ammattikorkeakoulu</li>
+    <ul>
+      <li>Hämeen ammattikorkeakoulu</li>
+    </ul>
+  </ul>
+  <hr><!-- horizontal rules -->
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <!-- taulukon tekoa -->
+    <thead>
+      <!-- käytetään useampaa headia, muotoilun takia -->
+      <tr>
+        <!-- table row eli pelkkä kehys vasemmalta oikealle -->
+        <th>Dates</th><!-- table head eli otsikko -->
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2001-2002</td><!-- table data eli kehyksen sisään tuleva aineisto, jos useampi menee vasemmalta oikealle -->
+        <td>Sähköasennus R.Kohtala</td>
+      </tr>
+      <tr>
+        <td>2002-2015</td>
+        <td>Puolustusvoimat</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+
+  </table>
+  <hr><!-- horizontal rules -->
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <!-- rakenteessa on useampi taulu, yhden taulun sisällä -->
+    <tr>
+      <!-- rakenteen sisässä on kaksi tablerowta, johon sisällytetty usampia tr elementtejä -->
+      <td>
+        <table>
+          <tr>
+            <td>Ohjelmointi</td>
+            <td>⭐⭐</td><!-- emojit aukeaa näppäimillä: WIN + . -->
+          </tr>
+          <tr>
+            <td>Kuvankäsittely</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Sähkötekniikka</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Teletekniikka</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Mastotyöt</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Dokumentointi</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Neuvottelutaidot</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>SHS laitetilat</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a><br><br>
+  <a href="contact.html">My contact</a>
+</body>
+
+</html>
